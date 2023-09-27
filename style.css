@@ -1,0 +1,122 @@
+/* Define a fonte 'Mooli' para todos os parágrafos no corpo (body) do documento */
+body p {
+    font-family: 'Mooli', sans-serif;
+}
+
+/* Define uma imagem de fundo repetida para o corpo (body) do documento */
+body {
+    background-image: url(Imagens/triangles_pattern.webp);
+    background-repeat: repeat;
+}
+
+/* Estiliza o menu de navegação (navbar) */
+.navbar {
+    background-color: #333;
+    border-bottom: 3px solid #555;
+}
+
+/* Estiliza a marca do menu e os links de navegação */
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important; 
+    transition: color 0.3s;
+}
+
+/* Define a cor dos links de navegação ao passar o mouse ou focar */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #1690c0 !important;
+    background-color: transparent;
+}
+
+/* Estiliza o botão do menu de navegação */
+.navbar-toggler {
+    border: 1px solid #ffffff;
+}
+
+/* Estiliza o ícone do botão do menu de navegação */
+/* .navbar-toggler-icon {
+    /* background-color: #ffffff; */
+
+
+/* Estiliza os botões na página */
+.btn {
+    background-color: #333;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Define a cor dos botões ao passar o mouse ou focar */
+.btn:hover, .btn:focus {
+    background-color: #555;
+    color: #ffffff;
+}
+
+/* Estiliza botões de contorno com a classe 'btn-outline-success' */
+.btn-outline-success {
+    color: #333;
+    border-color: #333;
+    background-color: transparent;
+}
+
+/* Define estilos para a classe 'breadcumb' */
+.breadcumb {
+    padding-left: 3rem !important;
+    padding-right: 1rem !important;
+}
+
+/* Define o layout da seção dos cartões de produtos */
+.container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Define estilos para telas com largura mínima de 350px */
+@media (min-width: 350px) {
+    .card-title {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+}
+
+/* Estiliza o rodapé (footer) */
+footer {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* Define o layout do container do rodapé */
+.container-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* Estiliza a lista de links no rodapé */
+.container-footer .list li {
+    list-style: none;
+    color: white;
+}
+
+/* Define a cor dos links no rodapé */
+.container-footer .list li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+/* Estiliza o texto de copyright no rodapé */
+.copyright {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.list{
+    font-size: 0.6em;
+}

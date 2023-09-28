@@ -10,29 +10,29 @@ body {
 }
 
 /* Estiliza o menu de navegação (navbar) */
-.navbar {
+/* .navbar {
     background-color: #333;
     border-bottom: 3px solid #555;
-}
+} */
 
 /* Estiliza a marca do menu e os links de navegação */
-.navbar-brand,
+/* .navbar-brand,
 .navbar-nav .nav-link {
     color: #ffffff !important; 
     transition: color 0.3s;
-}
+} */
 
 /* Define a cor dos links de navegação ao passar o mouse ou focar */
-.navbar-nav .nav-link:hover,
+/* .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
     color: #1690c0 !important;
     background-color: transparent;
-}
+} */
 
 /* Estiliza o botão do menu de navegação */
-.navbar-toggler {
+/* .navbar-toggler {
     border: 1px solid #ffffff;
-}
+} */
 
 /* Estiliza o ícone do botão do menu de navegação */
 /* .navbar-toggler-icon {
